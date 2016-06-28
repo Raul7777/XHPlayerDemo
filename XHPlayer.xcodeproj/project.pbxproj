@@ -7,14 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6022E8B29E296B56CEA54925 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19E851C7E6EF3F08CB582443 /* libPods.a */; };
 		D3123BB51D1A6829004CDEC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123BB41D1A6829004CDEC4 /* main.m */; };
 		D3123BB81D1A6829004CDEC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123BB71D1A6829004CDEC4 /* AppDelegate.m */; };
-		D3123BBB1D1A6829004CDEC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123BBA1D1A6829004CDEC4 /* ViewController.m */; };
-		D3123BBE1D1A6829004CDEC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3123BBC1D1A6829004CDEC4 /* Main.storyboard */; };
 		D3123BC01D1A6829004CDEC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3123BBF1D1A6829004CDEC4 /* Assets.xcassets */; };
 		D3123BC31D1A6829004CDEC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3123BC11D1A6829004CDEC4 /* LaunchScreen.storyboard */; };
 		D3123BCE1D1A6829004CDEC4 /* XHPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123BCD1D1A6829004CDEC4 /* XHPlayerTests.m */; };
 		D3123BD91D1A6829004CDEC4 /* XHPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123BD81D1A6829004CDEC4 /* XHPlayerUITests.m */; };
+		D3123BE71D1A6863004CDEC4 /* FirstPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3123BE61D1A6863004CDEC4 /* FirstPlist.plist */; };
+		D3123BEA1D1A697D004CDEC4 /* XHTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123BE91D1A697D004CDEC4 /* XHTabbarController.m */; };
+		D3123BED1D1A698D004CDEC4 /* XHNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123BEC1D1A698D004CDEC4 /* XHNavgationController.m */; };
+		D3123BF61D1A69E2004CDEC4 /* XHFunnyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123BF51D1A69E2004CDEC4 /* XHFunnyViewController.m */; };
+		D3123BF91D1A6A0E004CDEC4 /* XHMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123BF81D1A6A0E004CDEC4 /* XHMusicViewController.m */; };
+		D3123C001D1A6DE8004CDEC4 /* XHVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123BFE1D1A6DE8004CDEC4 /* XHVideoCell.m */; };
+		D3123C011D1A6DE8004CDEC4 /* XHVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3123BFF1D1A6DE8004CDEC4 /* XHVideoCell.xib */; };
+		D3123C041D1A7283004CDEC4 /* XHVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123C031D1A7283004CDEC4 /* XHVideo.m */; };
+		D3123C0B1D1A7333004CDEC4 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123C071D1A7333004CDEC4 /* NSObject+YYModel.m */; };
+		D3123C0C1D1A7333004CDEC4 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123C091D1A7333004CDEC4 /* YYClassInfo.m */; };
+		D3123C101D1A7B42004CDEC4 /* XHPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123C0F1D1A7B42004CDEC4 /* XHPlayer.m */; };
+		D3123C131D1A7BB3004CDEC4 /* XHPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123C121D1A7BB3004CDEC4 /* XHPlayerView.m */; };
+		D3123C171D1A7BE8004CDEC4 /* XHPlayerProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123C161D1A7BE8004CDEC4 /* XHPlayerProgressView.m */; };
+		D3123C1C1D1A7BEE004CDEC4 /* XHPlayerViewBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123C191D1A7BEE004CDEC4 /* XHPlayerViewBottomView.m */; };
+		D3123C1D1D1A7BEE004CDEC4 /* XHPlayerViewTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123C1B1D1A7BEE004CDEC4 /* XHPlayerViewTopView.m */; };
+		D3123C381D1A7BF6004CDEC4 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123C201D1A7BF6004CDEC4 /* MASCompositeConstraint.m */; };
+		D3123C391D1A7BF6004CDEC4 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123C231D1A7BF6004CDEC4 /* MASConstraint.m */; };
+		D3123C3A1D1A7BF6004CDEC4 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123C251D1A7BF6004CDEC4 /* MASConstraintMaker.m */; };
+		D3123C3B1D1A7BF6004CDEC4 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123C271D1A7BF6004CDEC4 /* MASLayoutConstraint.m */; };
+		D3123C3C1D1A7BF6004CDEC4 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123C2B1D1A7BF6004CDEC4 /* MASViewAttribute.m */; };
+		D3123C3D1D1A7BF6004CDEC4 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123C2D1D1A7BF6004CDEC4 /* MASViewConstraint.m */; };
+		D3123C3E1D1A7BF6004CDEC4 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123C2F1D1A7BF6004CDEC4 /* NSArray+MASAdditions.m */; };
+		D3123C3F1D1A7BF6004CDEC4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123C321D1A7BF6004CDEC4 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		D3123C401D1A7BF6004CDEC4 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123C341D1A7BF6004CDEC4 /* View+MASAdditions.m */; };
+		D3123C411D1A7BF6004CDEC4 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D3123C371D1A7BF6004CDEC4 /* ViewController+MASAdditions.m */; };
+		D32B01A41D1A829E00828763 /* XHVideoPlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = D32B01A31D1A829E00828763 /* XHVideoPlayController.m */; };
+		D32B01A61D1A848200828763 /* PlayerTool.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D32B01A51D1A848200828763 /* PlayerTool.bundle */; };
+		D355383D1D1D21400026F436 /* XHForwardView.m in Sources */ = {isa = PBXBuildFile; fileRef = D355383C1D1D21400026F436 /* XHForwardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +62,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19E851C7E6EF3F08CB582443 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93032C93A95A6CE89C4D31C0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D3123BB01D1A6829004CDEC4 /* XHPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3123BB41D1A6829004CDEC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D3123BB61D1A6829004CDEC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D3123BB71D1A6829004CDEC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D3123BB91D1A6829004CDEC4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D3123BBA1D1A6829004CDEC4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D3123BBD1D1A6829004CDEC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D3123BBF1D1A6829004CDEC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3123BC21D1A6829004CDEC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3123BC41D1A6829004CDEC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +77,66 @@
 		D3123BD41D1A6829004CDEC4 /* XHPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3123BD81D1A6829004CDEC4 /* XHPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHPlayerUITests.m; sourceTree = "<group>"; };
 		D3123BDA1D1A6829004CDEC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3123BE61D1A6863004CDEC4 /* FirstPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FirstPlist.plist; sourceTree = "<group>"; };
+		D3123BE81D1A697D004CDEC4 /* XHTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTabbarController.h; sourceTree = "<group>"; };
+		D3123BE91D1A697D004CDEC4 /* XHTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHTabbarController.m; sourceTree = "<group>"; };
+		D3123BEB1D1A698D004CDEC4 /* XHNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHNavgationController.h; sourceTree = "<group>"; };
+		D3123BEC1D1A698D004CDEC4 /* XHNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHNavgationController.m; sourceTree = "<group>"; };
+		D3123BF41D1A69E2004CDEC4 /* XHFunnyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHFunnyViewController.h; sourceTree = "<group>"; };
+		D3123BF51D1A69E2004CDEC4 /* XHFunnyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHFunnyViewController.m; sourceTree = "<group>"; };
+		D3123BF71D1A6A0E004CDEC4 /* XHMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHMusicViewController.h; sourceTree = "<group>"; };
+		D3123BF81D1A6A0E004CDEC4 /* XHMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHMusicViewController.m; sourceTree = "<group>"; };
+		D3123BFD1D1A6DE8004CDEC4 /* XHVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVideoCell.h; sourceTree = "<group>"; };
+		D3123BFE1D1A6DE8004CDEC4 /* XHVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVideoCell.m; sourceTree = "<group>"; };
+		D3123BFF1D1A6DE8004CDEC4 /* XHVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XHVideoCell.xib; sourceTree = "<group>"; };
+		D3123C021D1A7283004CDEC4 /* XHVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVideo.h; sourceTree = "<group>"; };
+		D3123C031D1A7283004CDEC4 /* XHVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVideo.m; sourceTree = "<group>"; };
+		D3123C061D1A7333004CDEC4 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		D3123C071D1A7333004CDEC4 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		D3123C081D1A7333004CDEC4 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		D3123C091D1A7333004CDEC4 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		D3123C0A1D1A7333004CDEC4 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		D3123C0E1D1A7B42004CDEC4 /* XHPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHPlayer.h; sourceTree = "<group>"; };
+		D3123C0F1D1A7B42004CDEC4 /* XHPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHPlayer.m; sourceTree = "<group>"; };
+		D3123C111D1A7BB3004CDEC4 /* XHPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHPlayerView.h; sourceTree = "<group>"; };
+		D3123C121D1A7BB3004CDEC4 /* XHPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHPlayerView.m; sourceTree = "<group>"; };
+		D3123C151D1A7BE8004CDEC4 /* XHPlayerProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHPlayerProgressView.h; sourceTree = "<group>"; };
+		D3123C161D1A7BE8004CDEC4 /* XHPlayerProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHPlayerProgressView.m; sourceTree = "<group>"; };
+		D3123C181D1A7BEE004CDEC4 /* XHPlayerViewBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHPlayerViewBottomView.h; sourceTree = "<group>"; };
+		D3123C191D1A7BEE004CDEC4 /* XHPlayerViewBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHPlayerViewBottomView.m; sourceTree = "<group>"; };
+		D3123C1A1D1A7BEE004CDEC4 /* XHPlayerViewTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHPlayerViewTopView.h; sourceTree = "<group>"; };
+		D3123C1B1D1A7BEE004CDEC4 /* XHPlayerViewTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHPlayerViewTopView.m; sourceTree = "<group>"; };
+		D3123C1F1D1A7BF6004CDEC4 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		D3123C201D1A7BF6004CDEC4 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		D3123C211D1A7BF6004CDEC4 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		D3123C221D1A7BF6004CDEC4 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		D3123C231D1A7BF6004CDEC4 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		D3123C241D1A7BF6004CDEC4 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		D3123C251D1A7BF6004CDEC4 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		D3123C261D1A7BF6004CDEC4 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		D3123C271D1A7BF6004CDEC4 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		D3123C281D1A7BF6004CDEC4 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		D3123C291D1A7BF6004CDEC4 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		D3123C2A1D1A7BF6004CDEC4 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		D3123C2B1D1A7BF6004CDEC4 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		D3123C2C1D1A7BF6004CDEC4 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		D3123C2D1D1A7BF6004CDEC4 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		D3123C2E1D1A7BF6004CDEC4 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		D3123C2F1D1A7BF6004CDEC4 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		D3123C301D1A7BF6004CDEC4 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D3123C311D1A7BF6004CDEC4 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		D3123C321D1A7BF6004CDEC4 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		D3123C331D1A7BF6004CDEC4 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		D3123C341D1A7BF6004CDEC4 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		D3123C351D1A7BF6004CDEC4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D3123C361D1A7BF6004CDEC4 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		D3123C371D1A7BF6004CDEC4 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		D32B01A21D1A829E00828763 /* XHVideoPlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVideoPlayController.h; sourceTree = "<group>"; };
+		D32B01A31D1A829E00828763 /* XHVideoPlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVideoPlayController.m; sourceTree = "<group>"; };
+		D32B01A51D1A848200828763 /* PlayerTool.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PlayerTool.bundle; sourceTree = "<group>"; };
+		D348826F78617B8636653DBF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D355383B1D1D21400026F436 /* XHForwardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHForwardView.h; sourceTree = "<group>"; };
+		D355383C1D1D21400026F436 /* XHForwardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHForwardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6022E8B29E296B56CEA54925 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +165,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E51CF7B3DC4D116E2B3E973 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D348826F78617B8636653DBF /* Pods.debug.xcconfig */,
+				93032C93A95A6CE89C4D31C0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A85D3446DBFFF304195004A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19E851C7E6EF3F08CB582443 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D3123BA71D1A6829004CDEC4 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +189,8 @@
 				D3123BCC1D1A6829004CDEC4 /* XHPlayerTests */,
 				D3123BD71D1A6829004CDEC4 /* XHPlayerUITests */,
 				D3123BB11D1A6829004CDEC4 /* Products */,
+				4E51CF7B3DC4D116E2B3E973 /* Pods */,
+				A85D3446DBFFF304195004A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +207,29 @@
 		D3123BB21D1A6829004CDEC4 /* XHPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				D3123C051D1A7333004CDEC4 /* YYModel */,
+				D3123C0D1D1A7AB0004CDEC4 /* XHPlayer */,
 				D3123BB61D1A6829004CDEC4 /* AppDelegate.h */,
 				D3123BB71D1A6829004CDEC4 /* AppDelegate.m */,
-				D3123BB91D1A6829004CDEC4 /* ViewController.h */,
-				D3123BBA1D1A6829004CDEC4 /* ViewController.m */,
-				D3123BBC1D1A6829004CDEC4 /* Main.storyboard */,
+				D3123BE81D1A697D004CDEC4 /* XHTabbarController.h */,
+				D3123BE91D1A697D004CDEC4 /* XHTabbarController.m */,
+				D3123BEB1D1A698D004CDEC4 /* XHNavgationController.h */,
+				D3123BEC1D1A698D004CDEC4 /* XHNavgationController.m */,
+				D3123BF41D1A69E2004CDEC4 /* XHFunnyViewController.h */,
+				D3123BF51D1A69E2004CDEC4 /* XHFunnyViewController.m */,
+				D3123BF71D1A6A0E004CDEC4 /* XHMusicViewController.h */,
+				D3123BF81D1A6A0E004CDEC4 /* XHMusicViewController.m */,
+				D32B01A21D1A829E00828763 /* XHVideoPlayController.h */,
+				D32B01A31D1A829E00828763 /* XHVideoPlayController.m */,
+				D3123BFD1D1A6DE8004CDEC4 /* XHVideoCell.h */,
+				D3123BFE1D1A6DE8004CDEC4 /* XHVideoCell.m */,
+				D3123C021D1A7283004CDEC4 /* XHVideo.h */,
+				D3123C031D1A7283004CDEC4 /* XHVideo.m */,
+				D3123BFF1D1A6DE8004CDEC4 /* XHVideoCell.xib */,
 				D3123BBF1D1A6829004CDEC4 /* Assets.xcassets */,
 				D3123BC11D1A6829004CDEC4 /* LaunchScreen.storyboard */,
 				D3123BC41D1A6829004CDEC4 /* Info.plist */,
+				D3123BE61D1A6863004CDEC4 /* FirstPlist.plist */,
 				D3123BB31D1A6829004CDEC4 /* Supporting Files */,
 			);
 			path = XHPlayer;
@@ -140,6 +261,71 @@
 			path = XHPlayerUITests;
 			sourceTree = "<group>";
 		};
+		D3123C051D1A7333004CDEC4 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				D3123C061D1A7333004CDEC4 /* NSObject+YYModel.h */,
+				D3123C071D1A7333004CDEC4 /* NSObject+YYModel.m */,
+				D3123C081D1A7333004CDEC4 /* YYClassInfo.h */,
+				D3123C091D1A7333004CDEC4 /* YYClassInfo.m */,
+				D3123C0A1D1A7333004CDEC4 /* YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		D3123C0D1D1A7AB0004CDEC4 /* XHPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				D32B01A51D1A848200828763 /* PlayerTool.bundle */,
+				D3123C1E1D1A7BF6004CDEC4 /* Masonry */,
+				D3123C181D1A7BEE004CDEC4 /* XHPlayerViewBottomView.h */,
+				D3123C191D1A7BEE004CDEC4 /* XHPlayerViewBottomView.m */,
+				D3123C1A1D1A7BEE004CDEC4 /* XHPlayerViewTopView.h */,
+				D3123C1B1D1A7BEE004CDEC4 /* XHPlayerViewTopView.m */,
+				D3123C151D1A7BE8004CDEC4 /* XHPlayerProgressView.h */,
+				D3123C161D1A7BE8004CDEC4 /* XHPlayerProgressView.m */,
+				D3123C111D1A7BB3004CDEC4 /* XHPlayerView.h */,
+				D3123C121D1A7BB3004CDEC4 /* XHPlayerView.m */,
+				D3123C0E1D1A7B42004CDEC4 /* XHPlayer.h */,
+				D3123C0F1D1A7B42004CDEC4 /* XHPlayer.m */,
+				D355383B1D1D21400026F436 /* XHForwardView.h */,
+				D355383C1D1D21400026F436 /* XHForwardView.m */,
+			);
+			path = XHPlayer;
+			sourceTree = "<group>";
+		};
+		D3123C1E1D1A7BF6004CDEC4 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				D3123C1F1D1A7BF6004CDEC4 /* MASCompositeConstraint.h */,
+				D3123C201D1A7BF6004CDEC4 /* MASCompositeConstraint.m */,
+				D3123C211D1A7BF6004CDEC4 /* MASConstraint+Private.h */,
+				D3123C221D1A7BF6004CDEC4 /* MASConstraint.h */,
+				D3123C231D1A7BF6004CDEC4 /* MASConstraint.m */,
+				D3123C241D1A7BF6004CDEC4 /* MASConstraintMaker.h */,
+				D3123C251D1A7BF6004CDEC4 /* MASConstraintMaker.m */,
+				D3123C261D1A7BF6004CDEC4 /* MASLayoutConstraint.h */,
+				D3123C271D1A7BF6004CDEC4 /* MASLayoutConstraint.m */,
+				D3123C281D1A7BF6004CDEC4 /* Masonry.h */,
+				D3123C291D1A7BF6004CDEC4 /* MASUtilities.h */,
+				D3123C2A1D1A7BF6004CDEC4 /* MASViewAttribute.h */,
+				D3123C2B1D1A7BF6004CDEC4 /* MASViewAttribute.m */,
+				D3123C2C1D1A7BF6004CDEC4 /* MASViewConstraint.h */,
+				D3123C2D1D1A7BF6004CDEC4 /* MASViewConstraint.m */,
+				D3123C2E1D1A7BF6004CDEC4 /* NSArray+MASAdditions.h */,
+				D3123C2F1D1A7BF6004CDEC4 /* NSArray+MASAdditions.m */,
+				D3123C301D1A7BF6004CDEC4 /* NSArray+MASShorthandAdditions.h */,
+				D3123C311D1A7BF6004CDEC4 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				D3123C321D1A7BF6004CDEC4 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				D3123C331D1A7BF6004CDEC4 /* View+MASAdditions.h */,
+				D3123C341D1A7BF6004CDEC4 /* View+MASAdditions.m */,
+				D3123C351D1A7BF6004CDEC4 /* View+MASShorthandAdditions.h */,
+				D3123C361D1A7BF6004CDEC4 /* ViewController+MASAdditions.h */,
+				D3123C371D1A7BF6004CDEC4 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +333,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D3123BDD1D1A6829004CDEC4 /* Build configuration list for PBXNativeTarget "XHPlayer" */;
 			buildPhases = (
+				EDBAA8DE1A237EBADCF2F074 /* Check Pods Manifest.lock */,
 				D3123BAC1D1A6829004CDEC4 /* Sources */,
 				D3123BAD1D1A6829004CDEC4 /* Frameworks */,
 				D3123BAE1D1A6829004CDEC4 /* Resources */,
+				569A040093953FE711381AD6 /* Embed Pods Frameworks */,
+				8E31E5F67ED0E384D41DD03F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +396,7 @@
 				TargetAttributes = {
 					D3123BAF1D1A6829004CDEC4 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = WN7443DB3U;
 					};
 					D3123BC81D1A6829004CDEC4 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -244,8 +434,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3123BC31D1A6829004CDEC4 /* LaunchScreen.storyboard in Resources */,
+				D3123BE71D1A6863004CDEC4 /* FirstPlist.plist in Resources */,
 				D3123BC01D1A6829004CDEC4 /* Assets.xcassets in Resources */,
-				D3123BBE1D1A6829004CDEC4 /* Main.storyboard in Resources */,
+				D32B01A61D1A848200828763 /* PlayerTool.bundle in Resources */,
+				D3123C011D1A6DE8004CDEC4 /* XHVideoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +457,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		569A040093953FE711381AD6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E31E5F67ED0E384D41DD03F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDBAA8DE1A237EBADCF2F074 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D3123BAC1D1A6829004CDEC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3123BBB1D1A6829004CDEC4 /* ViewController.m in Sources */,
+				D3123C0B1D1A7333004CDEC4 /* NSObject+YYModel.m in Sources */,
+				D3123C131D1A7BB3004CDEC4 /* XHPlayerView.m in Sources */,
+				D3123BF61D1A69E2004CDEC4 /* XHFunnyViewController.m in Sources */,
+				D3123C1C1D1A7BEE004CDEC4 /* XHPlayerViewBottomView.m in Sources */,
+				D3123BED1D1A698D004CDEC4 /* XHNavgationController.m in Sources */,
+				D32B01A41D1A829E00828763 /* XHVideoPlayController.m in Sources */,
+				D3123C3C1D1A7BF6004CDEC4 /* MASViewAttribute.m in Sources */,
+				D3123C3B1D1A7BF6004CDEC4 /* MASLayoutConstraint.m in Sources */,
+				D3123C3F1D1A7BF6004CDEC4 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				D3123C3A1D1A7BF6004CDEC4 /* MASConstraintMaker.m in Sources */,
 				D3123BB81D1A6829004CDEC4 /* AppDelegate.m in Sources */,
+				D3123C041D1A7283004CDEC4 /* XHVideo.m in Sources */,
+				D3123C411D1A7BF6004CDEC4 /* ViewController+MASAdditions.m in Sources */,
 				D3123BB51D1A6829004CDEC4 /* main.m in Sources */,
+				D3123BF91D1A6A0E004CDEC4 /* XHMusicViewController.m in Sources */,
+				D3123BEA1D1A697D004CDEC4 /* XHTabbarController.m in Sources */,
+				D3123C0C1D1A7333004CDEC4 /* YYClassInfo.m in Sources */,
+				D3123C101D1A7B42004CDEC4 /* XHPlayer.m in Sources */,
+				D3123C381D1A7BF6004CDEC4 /* MASCompositeConstraint.m in Sources */,
+				D3123C3E1D1A7BF6004CDEC4 /* NSArray+MASAdditions.m in Sources */,
+				D355383D1D1D21400026F436 /* XHForwardView.m in Sources */,
+				D3123C001D1A6DE8004CDEC4 /* XHVideoCell.m in Sources */,
+				D3123C1D1D1A7BEE004CDEC4 /* XHPlayerViewTopView.m in Sources */,
+				D3123C401D1A7BF6004CDEC4 /* View+MASAdditions.m in Sources */,
+				D3123C3D1D1A7BF6004CDEC4 /* MASViewConstraint.m in Sources */,
+				D3123C391D1A7BF6004CDEC4 /* MASConstraint.m in Sources */,
+				D3123C171D1A7BE8004CDEC4 /* XHPlayerProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +572,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D3123BBC1D1A6829004CDEC4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3123BBD1D1A6829004CDEC4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D3123BC11D1A6829004CDEC4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -411,8 +667,10 @@
 		};
 		D3123BDE1D1A6829004CDEC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D348826F78617B8636653DBF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = XHPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blackJoker.XHPlayer;
@@ -422,8 +680,10 @@
 		};
 		D3123BDF1D1A6829004CDEC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93032C93A95A6CE89C4D31C0 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = XHPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.blackJoker.XHPlayer;
@@ -496,6 +756,7 @@
 				D3123BDF1D1A6829004CDEC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3123BE01D1A6829004CDEC4 /* Build configuration list for PBXNativeTarget "XHPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +765,7 @@
 				D3123BE21D1A6829004CDEC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3123BE31D1A6829004CDEC4 /* Build configuration list for PBXNativeTarget "XHPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +774,7 @@
 				D3123BE51D1A6829004CDEC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

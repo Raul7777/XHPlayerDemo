@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  XHTabbarController.h
 //  XHPlayer
 //
 //  Created by TianGeng on 16/6/22.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface XHTabbarController : UITabBarController
 
 @end
-
